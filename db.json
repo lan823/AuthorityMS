@@ -1,0 +1,93 @@
+{
+  "members": [
+    {
+      "name": "111111",
+      "email": "1111122",
+      "website": "2223",
+      "id": 1
+    },
+    {
+      "name": "332",
+      "email": "3223",
+      "website": "3232",
+      "id": 2
+    },
+    {
+      "name": "21",
+      "email": "2221",
+      "website": "12211",
+      "id": 3
+    },
+    {
+      "name": "张军",
+      "email": "张军",
+      "website": "张军",
+      "id": 4
+    }
+  ],
+  "user": {
+    "role": "admin"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "code": "001",
+      "name": "智能移动管理员",
+      "description": "智能移动事业部总管理账户"
+    },
+    {
+      "id": 2,
+      "code": "002",
+      "name": "智能移动（产品组）",
+      "description": "智能移动事业部总管理账户"
+    },
+    {
+      "id": 3,
+      "code": "003",
+      "name": "智能移动（运营组）",
+      "description": "智能移动事业部总管理账户"
+    },
+    {
+      "id": 4,
+      "code": "004",
+      "name": "智能移动（市场组）",
+      "description": "智能移动事业部总管理账户"
+    }
+  ],
+  "manager": [
+    {
+      "id": 1,
+      "account": 32,
+      "name": "哈哈",
+      "userGroup": "智能移动事业部（产品组）",
+      "creatTime": "2017-6-30 18:22:22",
+      "status": "禁用"
+    },
+    {
+      "id": 4,
+      "account": 32,
+      "name": "哈哈",
+      "userGroup": "智能移动事业部（产品组）",
+      "creatTime": "2017-6-30 18:22:22",
+      "status": "禁用"
+    },
+    {
+      "account": "s",
+      "name": "s",
+      "password": "ss145641",
+      "userGroup": "a10",
+      "status": 2,
+      "creatTime": "2017-08-10T02:21:08.547Z",
+      "id": 5
+    },
+    {
+      "account": "s",
+      "name": "s",
+      "password": "ss145641",
+      "userGroup": "a10",
+      "status": 1,
+      "creatTime": "2017-08-10T07:10:04.633Z",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "entry": "src/index.js",
+    "disableCSSModules": false,
+    "cssModulesExclude": [],
+    "publicPath": "/",
+    "outputPath": "./dist",
+    "extraBabelPlugins": [],
+    "extraPostCSSPlugins": [],
+    "sass": false,
+    "hash": false,
+    "autoprefixer": null,
+    "externals": null,
+    "library": null,
+    "libraryTarget": "var",
+    "multipage": false,
+    "define": null,
+    "theme": null,
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+         ["import", { "libraryName": "antd", "style": true }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd","style": true }]
+      ]
+    }
+  }
+}
